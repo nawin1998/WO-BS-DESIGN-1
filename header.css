@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Labrada:ital,wght@0,700;1,400&family=Pacifico&family=Shantell+Sans:wght@300;500&family=Sono&display=swap');
+:root{
+    --main-color: #327ee9;
+    --black:#333;
+    --bg-color:#ffffff;
+    --light-color:#666;
+    --border:2px solid var(--black);
+    --box-shadow:0  .5rem 1rem rgba(0,0,0,.1);
+    --h1-font-size:30px;
+    --h2-font-size:25px;
+    --h3-font-size:22px;
+    --h5-font-size:20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position: sticky;
+    background-color: var(--main-color);
+    top: 0;
+    height: 85px;
+    width: 100%;
+    z-index: 2;
+    border: var(--border);
+}
+.logo{
+    position: relative;
+    height: 15px;
+    width: 150px;
+    left: 30px;
+    background-color: #327ee9;
+}
+.logo h1{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    font-size: xx-large;
+}
+.navbar{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    top: 15px;
+}
+.navbar ul{
+    position: relative;
+    display: flex;
+    float: right;
+    right: 20px;
+}
+.navbar li{
+    margin-left: 10px;  
+}
+.navbar a{
+    color: var(--white);
+    border: var(--border);
+    font-size: var(--h2-font-size);
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.navbar button{
+    position: relative;
+    bottom: 11px;
+    left: 10px;
+    padding: 12px;
+    align-items: center;
+    border-radius: 10px;
+    font-size: var(--h5-font-size);
+}
+.navbar a:hover{
+    background-color: #333;
+}
+html{
+    scroll-padding-top: 5.3rem;
+}
+#toggle{
+    display: none;
+}
+.rect{
+    display: none;
+}
+@media screen and (max-width: 500px){
+    .header{
+        position: sticky;
+        background-color: var(--main-color);
+        height: 100px;
+        width: 100%;
+        z-index: 2;
+        border: var(--border);
+    }
+    #toggle:checked ~ ul{
+        display: flex;
+        flex-direction: column;
+    }
+    .rect{
+        position: relative;
+        margin-left: 80%;
+        display: block;
+
+    }
+    .navbar ul{
+        position: relative;
+        display: none;
+        float: right;
+        right: 15px;  
+    }
+    .navbar a{
+        color: var(--white);
+        border: var(--border);
+        font-size: var(--h5-font-size);
+        padding: 5px;
+        border-radius: 15px;
+        line-height: 2;
+
+    }
+    .navbar button{
+        position: relative;
+        bottom: 11px;
+        left: 10px;
+        padding: 3px;
+        align-items: center;
+        border-radius: 10px;
+        font-size: var(--h5-font-size);
+    }
+    .navbar button{
+        position: relative;
+        padding: 5px;
+        width: 100px;
+        top: 4px;
+
+    }
+    .logo h1{
+        position: absolute;
+        top: 10px;
+        left: 20px;
+        font-size: xx-large;
+    }
+}

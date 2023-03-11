@@ -1,0 +1,692 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&family=Labrada:ital,wght@0,700;1,400&family=Pacifico&family=Shantell+Sans:wght@300;500&family=Sono&display=swap');
+:root{
+    --main-color: #327ee9;
+    --black:#333;
+    --white:#fff;
+    --light-color:#666;
+    --border:2px solid var(--black);
+    --box-shadow:0  .5rem 1rem rgba(0,0,0,.1);
+    --h1-font-size:30px;
+    --h2-font-size:25px;
+    --h3-font-size:22px;
+    --h5-font-size:20px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Dancing Script', cursive;
+    text-decoration: none;
+    list-style: none;
+}
+.header{
+    position: sticky;
+    background-color: var(--main-color);
+    top: 0;
+    height: 85px;
+    width: 100%;
+    z-index: 2;
+    border: var(--border);
+}
+.logo{
+    position: relative;
+    height: 15px;
+    width: 150px;
+    left: 30px;
+    background-color: #327ee9;
+}
+.logo h1{
+    position: absolute;
+    top: 5px;
+    left: 20px;
+    font-size: xx-large;
+}
+.navbar{
+    position: absolute;
+    height: 60px;
+    width: 100%;
+    top: 15px;
+}
+.navbar ul{
+    position: relative;
+    display: flex;
+    float: right;
+    right: 20px;
+}
+.navbar li{
+    margin-left: 10px;  
+}
+.navbar a{
+    color: var(--white);
+    border: var(--border);
+    font-size: var(--h2-font-size);
+    padding: 10px 15px;
+    border-radius: 15px;
+}
+.navbar button{
+    position: relative;
+    bottom: 11px;
+    left: 10px;
+    padding: 12px;
+    align-items: center;
+    border-radius: 10px;
+    font-size: var(--h5-font-size);
+}
+.navbar a:hover{
+    background-color: #333;
+}
+html{
+    scroll-padding-top: 5.3rem;
+}
+
+.Home{
+    background-color: var(--white);
+    min-height: 42.3rem;
+}
+.container1{
+    position: absolute;
+    height: 42rem;
+    width: 100%;
+}
+.row1{
+    position: absolute;
+    height: 30rem;
+    width: 35rem;
+    top:45px;
+    left: 90px;
+}
+.row1 h1{
+    font-size: var(--h1-font-size);
+    text-align: center;
+    margin-top: 50px;
+}
+.row1 p{
+    font-size: var(--h5-font-size);
+    text-align: center;
+    margin-top: 70px;
+}
+.click{
+    padding: 17px 17px;
+    text-align: center;
+    font-size: var(--h3-font-size);
+    margin-top: 90px;
+    margin-left: 120px;
+    border-radius: 15px;
+}
+.click2{
+    padding: 17px 17px;
+    text-align: center;
+    font-size: var(--h3-font-size);
+    margin-top: 30px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+.picture1{
+    position: absolute;
+    height: 30rem;
+    width: 35rem;
+    top:45px;
+    left: 55%;
+}
+.picture1 img{
+    height: 100%;
+    width: 100%;
+}
+.down{
+    position: absolute;
+    height: 130px;
+    width: 95%;
+    top: 82%;
+    left: 40px;
+}
+.down img{
+    position: relative;
+    width: 15%;
+    margin-left: 15px;
+    filter: grayscale(10);
+}
+.About{
+    background-color: var(--white);
+    min-height: 42.3rem;
+}
+.container2{
+    height: 42rem;
+    width: 100%;
+}
+.heading2 {
+    position: relative;
+    height: 45px;
+    width: 100%;
+    top: 20px;
+}
+.heading2 h1{
+    font-size: var(--h1-font-size);
+    text-align: center;
+}
+.title1{
+    position: relative;
+    height: 17rem;
+    width: 38rem;
+    top: 40px;
+    left: 50px;
+}
+.title1 p{
+    position: relative;
+    font-size: var(--h5-font-size);
+    text-align: center;
+}
+.title1 h3{
+    margin-top: 20px;
+    font-size: var(--h3-font-size);
+    text-align: center;
+}
+.title2{
+    position: relative;
+    height: 17rem;
+    width: 38rem;
+    bottom: 234px;
+    left: 55%;
+}
+.title2 p{
+    font-size: var(--h5-font-size);
+    text-align: center;
+}
+.click3{
+    padding: 17px;
+    margin-top: 30px;
+    margin-left: 40%;
+    border-radius: 15px;
+    font-size: var(--h5-font-size);
+}
+.picture2{
+    position: relative;
+    height: 17rem;
+    width: 38rem;
+    bottom: 200px;
+    left: 50px;
+}
+.picture2 img{
+    height: 100%;
+    width: 100%;
+}
+.progress{
+    position: relative;
+    height: 17rem;
+    width: 38rem;
+    bottom: 70%;
+    left: 55%;
+}
+.progress h3{
+    font-size: var(--h3-font-size);
+    text-align: center;
+}
+.progress p{
+    font-size: var(--h5-font-size);
+    text-align: center;
+}
+.bar{
+    position: absolute;
+    height: 60%;
+    width: 100%;
+    border: var(--border);
+}
+.bar1{
+    position: relative;
+    height: 25px;
+    width: 30%;
+    top: 20px;
+    left: 15px;
+    background-color: var(--white);
+    text-align: center;
+    border-radius: 20px;
+}
+.bar2{
+    position: relative;
+    height: 25px;
+    width: 45%;
+    top: 30px;
+    left: 15px;
+    background-color: var(--white);
+    text-align: center;
+    border-radius: 20px;
+}
+.bar3{
+    position: relative;
+    height: 25px;
+    width: 70%;
+    top: 40px;
+    left: 15px;
+    background-color: var(--white);
+    text-align: center;
+    border-radius: 20px;
+}
+.bar4{
+    position: relative;
+    height: 25px;
+    width:90%;
+    top: 50px;
+    left: 15px;
+    background-color: var(--white);
+    text-align: center;
+    border-radius: 20px;
+}
+.Services{
+    background-color: var(--white);
+    min-height: 42.3rem;
+}
+.container3{
+    height: 42rem;
+    width: 100%;
+}
+.heading3{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    top: 20px;
+}
+.heading3 h1{
+    font-size: var(--h1-font-size);
+    text-align: center;
+}
+.heading3 p{
+    position: relative;
+    text-align: center;
+    font-size: var(--h5-font-size);
+    top: 20px;
+}
+.card{
+    position: relative;
+    display: flex;
+    height: 18rem;
+    width: 100%;
+    gap: 2rem;
+    text-align: center;
+
+}
+.card1{
+    position: relative;
+    background-color: #666;
+    height: 15rem;
+    width: 20rem;
+    top: 100px;
+    left: 70px;
+    border-radius: 15px;
+}
+.card1 i{
+    margin-top: 20px;
+}
+.card1 h3{
+    font-size: var(--h2-font-size);
+    margin-top: 10px;
+}
+.card1 p{
+    font-size: var(--h5-font-size);
+    margin-top: 15px;
+}
+.called{
+    position: relative;
+    background-color: #666;
+    height: 15rem;
+    width: 100%;
+    top: 90px;
+    text-align: center;
+}
+.called h1{
+    font-size: var(--h1-font-size);
+    padding-top: 30px;
+}
+.called p{
+    font-size: var(--h5-font-size);
+    margin-top: 20px;
+}
+.click4{
+    padding: 15px;
+    margin-top: 20px;
+    font-size: var(--h5-font-size);
+    border-radius: 15px;
+}
+.Portfolio{
+    background-color: var(--white);
+    min-height: 42.3rem;
+}
+.container4{
+    height: 42rem;
+    width: 100%;
+}
+.heading4{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    top: 20px;
+}
+.heading4 h1{
+    font-size: var(--h1-font-size);
+    text-align: center;
+}
+.heading4 p{
+    position: relative;
+    text-align: center;
+    font-size: var(--h5-font-size);
+    top: 20px;
+}
+.picture3{
+    position: relative;
+    display: flex;
+    height: 35%;
+    width: 100%;
+    top: 110px;
+    
+}
+.snap1{
+    position: relative;
+    height: 90%;
+    width: 20%;
+    top: 10px;
+    left: 70px;
+    margin-left: 30px;
+}
+.snap1 img{
+    height: 100%;
+    width: 100%;
+}
+.picture4{
+    position: relative;
+    display: flex;
+    height: 35%;
+    width: 100%;
+    top: 130px;
+    
+}
+.snap2{
+    position: relative;
+    height: 90%;
+    width: 20%;
+    top: 10px;
+    left: 70px;
+    margin-left: 30px;
+}
+.snap2 img{
+    height: 100%;
+    width: 100%;
+}
+.Team{
+    background-color: var(--white);
+    min-height: 42.3rem;
+}
+.container5{
+    height: 42rem;
+    width: 100%;
+}
+.heading5{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    top: 20px;
+}
+.heading5 h1{
+    font-size: var(--h1-font-size);
+    text-align: center;
+}
+.heading5 p{
+    position: relative;
+    text-align: center;
+    font-size: var(--h5-font-size);
+    top: 20px;
+}
+.card2{
+    position: relative;
+    display: inline-flex;
+    height: 17rem;
+    width: 80%;
+    top: 70px;
+    left: 145px;
+    gap: 2rem;
+}
+.card3{
+    position: relative;
+    height: 17rem;
+    width:40rem;
+    border-radius: 15px;
+    background-color: #666;
+}
+.card3 img{
+    position: absolute;
+    height: 80%;
+    width: 50%;
+    top: 20px;
+    left: 20px;
+}
+.card3 h1{
+    position: absolute;
+    top: 35px;
+    left: 70%;
+    font-size: var(--h1-font-size);
+}
+.card3 p{
+    position: absolute;
+    width: 25%;
+    top: 70px;
+    left: 65%;
+    font-size: var(--h5-font-size);
+}
+.card3 i{
+    position: relative;
+    left: 67%;
+    top: 75%;
+}
+.card4{
+    position: relative;
+    display: inline-flex;
+    height: 17rem;
+    width: 80%;
+    top: 85px;
+    left: 145px;
+    gap: 2rem;
+}
+.card5{
+    position: relative;
+    height: 17rem;
+    width:40rem;
+    border-radius: 15px;
+    background-color: #666;
+}
+.card5 img{
+    position: absolute;
+    height: 80%;
+    width: 50%;
+    top: 20px;
+    left: 20px;
+}
+.card5 h1{
+    position: absolute;
+    top: 35px;
+    left: 70%;
+    font-size: var(--h1-font-size);
+}
+.card5 p{
+    position: absolute;
+    width: 25%;
+    top: 70px;
+    left: 65%;
+    font-size: var(--h5-font-size);
+}
+.card5 i{
+    position: relative;
+    left: 67%;
+    top: 75%;
+}
+.Pricing{
+    background-color: var(--white);
+    min-height: 42.2rem;
+}
+.container6{
+    height: 42rem;
+    width: 100%;
+}
+.heading6{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    top: 20px;
+}
+.heading6 h1{
+    font-size: var(--h1-font-size);
+    text-align: center;
+}
+.heading6 p{
+    position: relative;
+    text-align: center;
+    font-size: var(--h5-font-size);
+    top: 20px;
+}
+.card6{
+    position: relative;
+    display: flex;
+    height: 33rem;
+    width:95%;
+    top: 74px;
+    left: 30px;
+    text-align: center;
+}
+.card7{
+    position: relative;
+    height: 30rem;
+    width: 28rem;
+    top: 20px;
+    margin-left: 30px;
+    background-color: #666;
+}
+.card7 h1{
+    margin-top: 30px;
+    font-size: var(--h1-font-size);
+}
+.card7 h2{
+    margin-top: 25px;
+    font-size: var(--h2-font-size);
+}
+.card7 p{
+    margin-top: 20px;
+    font-size: var(--h5-font-size);
+}
+.card7 .click5{
+    position: relative;
+    padding: 13px;
+    top: 25px;
+    font-size: var(--h5-font-size);
+    border-radius: 15px;
+}
+.Contact{
+    background-color: var(--white);
+    min-height: 42.3rem;
+}
+.container7{
+    height: 42rem;
+    width: 100%;
+}
+.heading7{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    top: 20px;
+}
+.heading7 h1{
+    font-size: var(--h1-font-size);
+    text-align: center;
+}
+.heading7 p{
+    position: relative;
+    text-align: center;
+    font-size: var(--h5-font-size);
+    top: 20px;
+}
+.card8{
+    position: relative;
+    background-color: #666;
+    height: 24rem;
+    width: 23rem;
+    left: 20%;
+    top: 70px;
+}
+.card8 h1{
+    font-size: var(--h1-font-size);
+    text-align: center;
+}
+.card8 h2{
+    font-size: var(--h2-font-size);
+    text-align: center;
+    margin-top: 30px;
+}
+.card8 p{
+    font-size: var(--h5-font-size);
+    text-align: center;
+}
+.formed{
+    position: relative;
+    background-color: #666;
+    height: 24rem;
+    width: 25rem;
+    left: 50%;
+    bottom: 47%;
+}
+form{
+    display: grid;
+}
+form h1{
+    font-size: var(--h1-font-size);
+    text-align: center;
+}
+form .box{
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+::placeholder{
+    text-align: center;
+    font-size: var(--h5-font-size);
+}
+.click6{
+    width: 25%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 37%;
+    border-radius: 15px;
+}
+.foot{
+    position: relative;
+    height: 9rem;
+    width: 100%;
+    background-color: #666;
+    bottom: 41.4%;
+}
+.foot h2{
+    font-size: var(--h2-font-size);
+    text-align: center;
+    padding-top: 15px;
+}
+.foot p{
+    font-size: var(--h5-font-size);
+    text-align: center;
+}
+.footed{
+    position: absolute;
+    height: 45px;
+    width: 27%;
+    left: 36%;
+    top: 85px;
+}
+.footed .box1{
+   position: relative;
+   height: 40px;
+   width: 80%;
+}
+.footed .click7{
+    position: absolute;
+    padding: 10.5px;
+    left: 81%;
+    border-radius: 15px;
+}
+.footed .click7:hover{
+    background-color: var(--light-color);
+}

@@ -1,0 +1,150 @@
+.Contact{
+    background-color: var(--white);
+    min-height: 42.3rem;
+}
+.container7{
+    height: 42rem;
+    width: 100%;
+}
+.heading7{
+    position: relative;
+    height: 45px;
+    width: 100%;
+    top: 20px;
+}
+.heading7 h1{
+    font-size: var(--h1-font-size);
+    text-align: center;
+}
+.heading7 p{
+    position: relative;
+    text-align: center;
+    font-size: var(--h5-font-size);
+    top: 20px;
+}
+.card8{
+    position: relative;
+    background-color: #666;
+    height: 24rem;
+    width: 23rem;
+    left: 20%;
+    top: 70px;
+}
+.card8 h1{
+    font-size: var(--h1-font-size);
+    text-align: center;
+}
+.card8 h2{
+    font-size: var(--h2-font-size);
+    text-align: center;
+    margin-top: 30px;
+}
+.card8 p{
+    font-size: var(--h5-font-size);
+    text-align: center;
+}
+.formed{
+    position: relative;
+    background-color: #666;
+    height: 24rem;
+    width: 25rem;
+    left: 50%;
+    bottom: 47%;
+}
+form{
+    display: grid;
+}
+form h1{
+    font-size: var(--h1-font-size);
+    text-align: center;
+}
+form .box{
+    width: 90%;
+    height: 50px;
+    margin-top: 15px;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+::placeholder{
+    text-align: center;
+    font-size: var(--h5-font-size);
+}
+.click6{
+    width: 25%;
+    height: 50px;
+    margin-top: 20px;
+    margin-left: 37%;
+    border-radius: 15px;
+}
+.foot{
+    position: relative;
+    height: 9rem;
+    width: 100%;
+    background-color: #666;
+    bottom: 41.4%;
+}
+.foot h2{
+    font-size: var(--h2-font-size);
+    text-align: center;
+    padding-top: 15px;
+}
+.foot p{
+    font-size: var(--h5-font-size);
+    text-align: center;
+}
+.footed{
+    position: absolute;
+    height: 45px;
+    width: 27%;
+    left: 36%;
+    top: 85px;
+}
+.footed .box1{
+   position: relative;
+   height: 40px;
+   width: 80%;
+}
+.footed .click7{
+    position: absolute;
+    padding: 10.5px;
+    left: 81%;
+    border-radius: 15px;
+}
+.footed .click7:hover{
+    background-color: var(--light-color);
+}
+@media screen and (max-width: 500px){
+    .Contact{
+        min-height: 70rem;
+    }
+    .container7{
+        height: 70rem;
+        width: 100%;
+    }
+    .card8{
+        position: relative;
+        background-color: #666;
+        height: 24rem;
+        width: 23rem;
+        left: 65px;
+        top: 90px;
+    }
+    .formed{
+        position: relative;
+        background-color: #666;
+        height: 24rem;
+        width: 25rem;
+        left: 50px;
+        top: 11%; 
+    }
+    form{
+        display: grid;
+    }
+    .foot{
+        position: relative;
+        height: 9rem;
+        width: 100%;
+        background-color: #666;
+        top: 18%;
+    }
+}
